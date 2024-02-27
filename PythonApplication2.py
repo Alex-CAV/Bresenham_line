@@ -31,7 +31,13 @@ def ALG_bresenham(x1, y1, x2, y2):
             y += sy
     image.show()
 
-x1, y1 = 935,427
-x2, y2 = 300,650
+print('first point')
+inp = input().split()
+x1 = int(inp[0])
+y1 = int(inp[1])
+print('second point')
+inp = input().split()
+x2 = int(inp[0])
+y2 = int(inp[1])
 
 ALG_bresenham(x1, y1, x2, y2)
